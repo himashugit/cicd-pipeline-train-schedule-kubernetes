@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
        
-        DOCKER_IMAGE_NAME = "himashu07/train-schedule"
+        DOCKER_IMAGE_NAME ="himashu07/train-schedule"
     }
     stages {
         stage('Build') {
